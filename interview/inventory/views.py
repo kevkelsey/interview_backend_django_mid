@@ -1,11 +1,13 @@
 from rest_framework.response import Response
 from rest_framework.request import Request
 from rest_framework.views import APIView
+from rest_framework import generics
 
 from interview.inventory.models import Inventory, InventoryLanguage, InventoryTag, InventoryType
 from interview.inventory.schemas import InventoryMetaData
 from interview.inventory.serializers import InventoryLanguageSerializer, InventorySerializer, InventoryTagSerializer, InventoryTypeSerializer
 
+from datetime import datetime
 
 class InventoryListCreateView(APIView):
     queryset = Inventory.objects.all()
@@ -219,3 +221,11 @@ class InventoryTypeRetrieveUpdateDestroyView(APIView):
     
     def get_queryset(self, **kwargs):
         return self.queryset.get(**kwargs)
+
+class InventoryListByCreatedAfterDate(generics.ListAPIView):
+    serializer_class = InventorySerializer
+    
+
+    def get_queryset(self):
+        date = datetime(self.kwargs['year'], self.kwargs['month'], self.kwargs['day'])
+        return Inventory.objects.filter(created_at__gt=date)
