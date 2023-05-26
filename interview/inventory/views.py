@@ -18,10 +18,13 @@ from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
+from .pagination import ListViewPagination
 
-class InventoryListCreateView(APIView):
+
+class InventoryListCreateView(generics.GenericAPIView):
     queryset = Inventory.objects.all()
     serializer_class = InventorySerializer
+    pagination_class = ListViewPagination
 
     def post(self, request: Request, *args, **kwargs) -> Response:
         try:
@@ -39,9 +42,10 @@ class InventoryListCreateView(APIView):
         return Response(serializer.data, status=201)
 
     def get(self, request: Request, *args, **kwargs) -> Response:
-        serializer = self.serializer_class(self.get_queryset(), many=True)
+        queryset = self.paginate_queryset(self.get_queryset())
+        serializer = self.serializer_class(queryset, many=True)
 
-        return Response(serializer.data, status=200)
+        return self.get_paginated_response(serializer.data)
 
     def get_queryset(self):
         return self.queryset.all()
