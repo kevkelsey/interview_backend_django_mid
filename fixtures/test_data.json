@@ -1,0 +1,2693 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add inventory language",
+        "content_type": 7,
+        "codename": "add_inventorylanguage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change inventory language",
+        "content_type": 7,
+        "codename": "change_inventorylanguage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete inventory language",
+        "content_type": 7,
+        "codename": "delete_inventorylanguage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view inventory language",
+        "content_type": 7,
+        "codename": "view_inventorylanguage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add inventory tag",
+        "content_type": 8,
+        "codename": "add_inventorytag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change inventory tag",
+        "content_type": 8,
+        "codename": "change_inventorytag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete inventory tag",
+        "content_type": 8,
+        "codename": "delete_inventorytag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view inventory tag",
+        "content_type": 8,
+        "codename": "view_inventorytag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add inventory type",
+        "content_type": 9,
+        "codename": "add_inventorytype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change inventory type",
+        "content_type": 9,
+        "codename": "change_inventorytype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete inventory type",
+        "content_type": 9,
+        "codename": "delete_inventorytype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view inventory type",
+        "content_type": 9,
+        "codename": "view_inventorytype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add inventory",
+        "content_type": 10,
+        "codename": "add_inventory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change inventory",
+        "content_type": 10,
+        "codename": "change_inventory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete inventory",
+        "content_type": 10,
+        "codename": "delete_inventory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view inventory",
+        "content_type": 10,
+        "codename": "view_inventory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add order tag",
+        "content_type": 11,
+        "codename": "add_ordertag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change order tag",
+        "content_type": 11,
+        "codename": "change_ordertag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete order tag",
+        "content_type": 11,
+        "codename": "delete_ordertag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view order tag",
+        "content_type": 11,
+        "codename": "view_ordertag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add order",
+        "content_type": 12,
+        "codename": "add_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change order",
+        "content_type": 12,
+        "codename": "change_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete order",
+        "content_type": 12,
+        "codename": "delete_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view order",
+        "content_type": 12,
+        "codename": "view_order"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "inventory",
+        "model": "inventorylanguage"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "inventory",
+        "model": "inventorytag"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "inventory",
+        "model": "inventorytype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "inventory",
+        "model": "inventory"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "order",
+        "model": "ordertag"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "order",
+        "model": "order"
+    }
+},
+{
+    "model": "inventory.inventorytag",
+    "pk": 1,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.144Z",
+        "updated_at": "2023-05-20T18:04:16.144Z",
+        "is_active": true,
+        "name": "Action"
+    }
+},
+{
+    "model": "inventory.inventorytag",
+    "pk": 2,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.145Z",
+        "updated_at": "2023-05-20T18:04:16.145Z",
+        "is_active": true,
+        "name": "Adventure"
+    }
+},
+{
+    "model": "inventory.inventorytag",
+    "pk": 3,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.146Z",
+        "updated_at": "2023-05-20T18:04:16.146Z",
+        "is_active": true,
+        "name": "Comedy"
+    }
+},
+{
+    "model": "inventory.inventorytag",
+    "pk": 4,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.147Z",
+        "updated_at": "2023-05-20T18:04:16.147Z",
+        "is_active": true,
+        "name": "Drama"
+    }
+},
+{
+    "model": "inventory.inventorytag",
+    "pk": 5,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.149Z",
+        "updated_at": "2023-05-20T18:04:16.149Z",
+        "is_active": true,
+        "name": "Romance"
+    }
+},
+{
+    "model": "inventory.inventorytag",
+    "pk": 6,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.150Z",
+        "updated_at": "2023-05-20T18:04:16.150Z",
+        "is_active": true,
+        "name": "Sci-Fi"
+    }
+},
+{
+    "model": "inventory.inventorytag",
+    "pk": 7,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.151Z",
+        "updated_at": "2023-05-20T18:04:16.151Z",
+        "is_active": true,
+        "name": "Thriller"
+    }
+},
+{
+    "model": "inventory.inventorytag",
+    "pk": 8,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.152Z",
+        "updated_at": "2023-05-20T18:04:16.152Z",
+        "is_active": true,
+        "name": "Crime"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 1,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.940Z",
+        "updated_at": "2023-05-20T18:04:15.941Z",
+        "name": "Abkhaz"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 2,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.945Z",
+        "updated_at": "2023-05-20T18:04:15.945Z",
+        "name": "Afar"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 3,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.947Z",
+        "updated_at": "2023-05-20T18:04:15.947Z",
+        "name": "Afrikaans"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 4,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.949Z",
+        "updated_at": "2023-05-20T18:04:15.949Z",
+        "name": "Akan"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 5,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.951Z",
+        "updated_at": "2023-05-20T18:04:15.951Z",
+        "name": "Albanian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 6,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.952Z",
+        "updated_at": "2023-05-20T18:04:15.952Z",
+        "name": "Amharic"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 7,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.954Z",
+        "updated_at": "2023-05-20T18:04:15.954Z",
+        "name": "Arabic"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 8,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.955Z",
+        "updated_at": "2023-05-20T18:04:15.955Z",
+        "name": "Aragonese"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 9,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.957Z",
+        "updated_at": "2023-05-20T18:04:15.957Z",
+        "name": "Armenian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 10,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.958Z",
+        "updated_at": "2023-05-20T18:04:15.958Z",
+        "name": "Assamese"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 11,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.959Z",
+        "updated_at": "2023-05-20T18:04:15.959Z",
+        "name": "Avaric"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 12,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.961Z",
+        "updated_at": "2023-05-20T18:04:15.961Z",
+        "name": "Avestan"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 13,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.962Z",
+        "updated_at": "2023-05-20T18:04:15.962Z",
+        "name": "Aymara"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 14,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.964Z",
+        "updated_at": "2023-05-20T18:04:15.964Z",
+        "name": "Azerbaijani"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 15,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.965Z",
+        "updated_at": "2023-05-20T18:04:15.965Z",
+        "name": "Bambara"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 16,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.966Z",
+        "updated_at": "2023-05-20T18:04:15.966Z",
+        "name": "Bashkir"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 17,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.968Z",
+        "updated_at": "2023-05-20T18:04:15.968Z",
+        "name": "Basque"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 18,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.969Z",
+        "updated_at": "2023-05-20T18:04:15.969Z",
+        "name": "Belarusian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 19,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.970Z",
+        "updated_at": "2023-05-20T18:04:15.970Z",
+        "name": "Bengali"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 20,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.972Z",
+        "updated_at": "2023-05-20T18:04:15.972Z",
+        "name": "Bihari"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 21,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.973Z",
+        "updated_at": "2023-05-20T18:04:15.973Z",
+        "name": "Bislama"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 22,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.974Z",
+        "updated_at": "2023-05-20T18:04:15.974Z",
+        "name": "Bosnian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 23,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.976Z",
+        "updated_at": "2023-05-20T18:04:15.976Z",
+        "name": "Breton"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 24,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.977Z",
+        "updated_at": "2023-05-20T18:04:15.977Z",
+        "name": "Bulgarian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 25,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.978Z",
+        "updated_at": "2023-05-20T18:04:15.978Z",
+        "name": "Burmese"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 26,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.980Z",
+        "updated_at": "2023-05-20T18:04:15.980Z",
+        "name": "Chamorro"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 27,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.981Z",
+        "updated_at": "2023-05-20T18:04:15.981Z",
+        "name": "Chechen"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 28,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.982Z",
+        "updated_at": "2023-05-20T18:04:15.982Z",
+        "name": "Chinese"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 29,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.984Z",
+        "updated_at": "2023-05-20T18:04:15.984Z",
+        "name": "Chuvash"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 30,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.985Z",
+        "updated_at": "2023-05-20T18:04:15.985Z",
+        "name": "Cornish"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 31,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.986Z",
+        "updated_at": "2023-05-20T18:04:15.986Z",
+        "name": "Corsican"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 32,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.988Z",
+        "updated_at": "2023-05-20T18:04:15.988Z",
+        "name": "Cree"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 33,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.989Z",
+        "updated_at": "2023-05-20T18:04:15.989Z",
+        "name": "Croatian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 34,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.991Z",
+        "updated_at": "2023-05-20T18:04:15.991Z",
+        "name": "Czech"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 35,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.992Z",
+        "updated_at": "2023-05-20T18:04:15.992Z",
+        "name": "Danish"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 36,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.993Z",
+        "updated_at": "2023-05-20T18:04:15.993Z",
+        "name": "Dutch"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 37,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.995Z",
+        "updated_at": "2023-05-20T18:04:15.995Z",
+        "name": "English"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 38,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.996Z",
+        "updated_at": "2023-05-20T18:04:15.996Z",
+        "name": "Esperanto"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 39,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.997Z",
+        "updated_at": "2023-05-20T18:04:15.997Z",
+        "name": "Estonian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 40,
+    "fields": {
+        "created_at": "2023-05-20T18:04:15.999Z",
+        "updated_at": "2023-05-20T18:04:15.999Z",
+        "name": "Ewe"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 41,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.000Z",
+        "updated_at": "2023-05-20T18:04:16.000Z",
+        "name": "Faroese"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 42,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.001Z",
+        "updated_at": "2023-05-20T18:04:16.001Z",
+        "name": "Fijian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 43,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.003Z",
+        "updated_at": "2023-05-20T18:04:16.003Z",
+        "name": "Finnish"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 44,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.004Z",
+        "updated_at": "2023-05-20T18:04:16.004Z",
+        "name": "French"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 45,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.005Z",
+        "updated_at": "2023-05-20T18:04:16.005Z",
+        "name": "Galician"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 46,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.007Z",
+        "updated_at": "2023-05-20T18:04:16.007Z",
+        "name": "Georgian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 47,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.008Z",
+        "updated_at": "2023-05-20T18:04:16.008Z",
+        "name": "German"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 48,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.009Z",
+        "updated_at": "2023-05-20T18:04:16.009Z",
+        "name": "Guaraní"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 49,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.011Z",
+        "updated_at": "2023-05-20T18:04:16.011Z",
+        "name": "Gujarati"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 50,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.012Z",
+        "updated_at": "2023-05-20T18:04:16.012Z",
+        "name": "Hausa"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 51,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.014Z",
+        "updated_at": "2023-05-20T18:04:16.014Z",
+        "name": "Hebrew"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 52,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.015Z",
+        "updated_at": "2023-05-20T18:04:16.015Z",
+        "name": "Herero"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 53,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.016Z",
+        "updated_at": "2023-05-20T18:04:16.016Z",
+        "name": "Hindi"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 54,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.017Z",
+        "updated_at": "2023-05-20T18:04:16.017Z",
+        "name": "Hiri Motu"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 55,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.019Z",
+        "updated_at": "2023-05-20T18:04:16.019Z",
+        "name": "Hungarian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 56,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.020Z",
+        "updated_at": "2023-05-20T18:04:16.020Z",
+        "name": "Interlingua"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 57,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.021Z",
+        "updated_at": "2023-05-20T18:04:16.021Z",
+        "name": "Indonesian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 58,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.022Z",
+        "updated_at": "2023-05-20T18:04:16.022Z",
+        "name": "Interlingue"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 59,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.024Z",
+        "updated_at": "2023-05-20T18:04:16.024Z",
+        "name": "Irish"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 60,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.025Z",
+        "updated_at": "2023-05-20T18:04:16.025Z",
+        "name": "Igbo"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 61,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.026Z",
+        "updated_at": "2023-05-20T18:04:16.026Z",
+        "name": "Inupiaq"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 62,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.028Z",
+        "updated_at": "2023-05-20T18:04:16.028Z",
+        "name": "Ido"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 63,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.029Z",
+        "updated_at": "2023-05-20T18:04:16.029Z",
+        "name": "Icelandic"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 64,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.030Z",
+        "updated_at": "2023-05-20T18:04:16.030Z",
+        "name": "Italian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 65,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.031Z",
+        "updated_at": "2023-05-20T18:04:16.031Z",
+        "name": "Inuktitut"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 66,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.033Z",
+        "updated_at": "2023-05-20T18:04:16.033Z",
+        "name": "Japanese"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 67,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.034Z",
+        "updated_at": "2023-05-20T18:04:16.034Z",
+        "name": "Javanese"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 68,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.035Z",
+        "updated_at": "2023-05-20T18:04:16.035Z",
+        "name": "Kannada"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 69,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.037Z",
+        "updated_at": "2023-05-20T18:04:16.037Z",
+        "name": "Kanuri"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 70,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.038Z",
+        "updated_at": "2023-05-20T18:04:16.038Z",
+        "name": "Kashmiri"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 71,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.039Z",
+        "updated_at": "2023-05-20T18:04:16.039Z",
+        "name": "Kazakh"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 72,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.041Z",
+        "updated_at": "2023-05-20T18:04:16.041Z",
+        "name": "Khmer"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 73,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.042Z",
+        "updated_at": "2023-05-20T18:04:16.042Z",
+        "name": "Kinyarwanda"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 74,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.043Z",
+        "updated_at": "2023-05-20T18:04:16.043Z",
+        "name": "Komi"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 75,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.044Z",
+        "updated_at": "2023-05-20T18:04:16.044Z",
+        "name": "Kongo"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 76,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.046Z",
+        "updated_at": "2023-05-20T18:04:16.046Z",
+        "name": "Korean"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 77,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.047Z",
+        "updated_at": "2023-05-20T18:04:16.047Z",
+        "name": "Kurdish"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 78,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.048Z",
+        "updated_at": "2023-05-20T18:04:16.048Z",
+        "name": "Latin"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 79,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.050Z",
+        "updated_at": "2023-05-20T18:04:16.050Z",
+        "name": "Luganda"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 80,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.051Z",
+        "updated_at": "2023-05-20T18:04:16.051Z",
+        "name": "Lingala"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 81,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.052Z",
+        "updated_at": "2023-05-20T18:04:16.052Z",
+        "name": "Lao"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 82,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.053Z",
+        "updated_at": "2023-05-20T18:04:16.053Z",
+        "name": "Lithuanian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 83,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.055Z",
+        "updated_at": "2023-05-20T18:04:16.055Z",
+        "name": "Luba-Katanga"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 84,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.056Z",
+        "updated_at": "2023-05-20T18:04:16.056Z",
+        "name": "Latvian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 85,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.057Z",
+        "updated_at": "2023-05-20T18:04:16.057Z",
+        "name": "Manx"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 86,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.059Z",
+        "updated_at": "2023-05-20T18:04:16.059Z",
+        "name": "Macedonian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 87,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.060Z",
+        "updated_at": "2023-05-20T18:04:16.060Z",
+        "name": "Malagasy"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 88,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.061Z",
+        "updated_at": "2023-05-20T18:04:16.061Z",
+        "name": "Malay"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 89,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.063Z",
+        "updated_at": "2023-05-20T18:04:16.063Z",
+        "name": "Malayalam"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 90,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.064Z",
+        "updated_at": "2023-05-20T18:04:16.064Z",
+        "name": "Maltese"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 91,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.065Z",
+        "updated_at": "2023-05-20T18:04:16.065Z",
+        "name": "Marshallese"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 92,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.066Z",
+        "updated_at": "2023-05-20T18:04:16.066Z",
+        "name": "Mongolian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 93,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.068Z",
+        "updated_at": "2023-05-20T18:04:16.068Z",
+        "name": "Nauru"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 94,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.069Z",
+        "updated_at": "2023-05-20T18:04:16.069Z",
+        "name": "North Ndebele"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 95,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.070Z",
+        "updated_at": "2023-05-20T18:04:16.070Z",
+        "name": "Nepali"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 96,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.072Z",
+        "updated_at": "2023-05-20T18:04:16.072Z",
+        "name": "Ndonga"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 97,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.073Z",
+        "updated_at": "2023-05-20T18:04:16.073Z",
+        "name": "Norwegian Nynorsk"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 98,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.075Z",
+        "updated_at": "2023-05-20T18:04:16.075Z",
+        "name": "Norwegian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 99,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.076Z",
+        "updated_at": "2023-05-20T18:04:16.076Z",
+        "name": "Nuosu"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 100,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.077Z",
+        "updated_at": "2023-05-20T18:04:16.077Z",
+        "name": "South Ndebele"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 101,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.079Z",
+        "updated_at": "2023-05-20T18:04:16.079Z",
+        "name": "Occitan"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 102,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.080Z",
+        "updated_at": "2023-05-20T18:04:16.080Z",
+        "name": "Oromo"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 103,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.081Z",
+        "updated_at": "2023-05-20T18:04:16.081Z",
+        "name": "Oriya"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 104,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.083Z",
+        "updated_at": "2023-05-20T18:04:16.083Z",
+        "name": "Persian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 105,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.084Z",
+        "updated_at": "2023-05-20T18:04:16.084Z",
+        "name": "Polish"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 106,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.085Z",
+        "updated_at": "2023-05-20T18:04:16.085Z",
+        "name": "Portuguese"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 107,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.086Z",
+        "updated_at": "2023-05-20T18:04:16.086Z",
+        "name": "Quechua"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 108,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.088Z",
+        "updated_at": "2023-05-20T18:04:16.088Z",
+        "name": "Romansh"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 109,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.089Z",
+        "updated_at": "2023-05-20T18:04:16.089Z",
+        "name": "Kirundi"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 110,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.090Z",
+        "updated_at": "2023-05-20T18:04:16.090Z",
+        "name": "Russian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 111,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.092Z",
+        "updated_at": "2023-05-20T18:04:16.092Z",
+        "name": "Sardinian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 112,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.093Z",
+        "updated_at": "2023-05-20T18:04:16.093Z",
+        "name": "Sindhi"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 113,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.094Z",
+        "updated_at": "2023-05-20T18:04:16.094Z",
+        "name": "Northern Sami"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 114,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.095Z",
+        "updated_at": "2023-05-20T18:04:16.095Z",
+        "name": "Samoan"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 115,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.097Z",
+        "updated_at": "2023-05-20T18:04:16.097Z",
+        "name": "Sango"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 116,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.098Z",
+        "updated_at": "2023-05-20T18:04:16.098Z",
+        "name": "Serbian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 117,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.099Z",
+        "updated_at": "2023-05-20T18:04:16.099Z",
+        "name": "Shona"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 118,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.101Z",
+        "updated_at": "2023-05-20T18:04:16.101Z",
+        "name": "Slovak"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 119,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.102Z",
+        "updated_at": "2023-05-20T18:04:16.102Z",
+        "name": "Slovene"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 120,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.103Z",
+        "updated_at": "2023-05-20T18:04:16.103Z",
+        "name": "Somali"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 121,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.104Z",
+        "updated_at": "2023-05-20T18:04:16.104Z",
+        "name": "Southern Sotho"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 122,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.106Z",
+        "updated_at": "2023-05-20T18:04:16.106Z",
+        "name": "Sundanese"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 123,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.107Z",
+        "updated_at": "2023-05-20T18:04:16.107Z",
+        "name": "Swahili"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 124,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.108Z",
+        "updated_at": "2023-05-20T18:04:16.108Z",
+        "name": "Swati"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 125,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.110Z",
+        "updated_at": "2023-05-20T18:04:16.110Z",
+        "name": "Swedish"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 126,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.111Z",
+        "updated_at": "2023-05-20T18:04:16.111Z",
+        "name": "Tamil"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 127,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.112Z",
+        "updated_at": "2023-05-20T18:04:16.112Z",
+        "name": "Telugu"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 128,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.114Z",
+        "updated_at": "2023-05-20T18:04:16.114Z",
+        "name": "Tajik"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 129,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.115Z",
+        "updated_at": "2023-05-20T18:04:16.115Z",
+        "name": "Thai"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 130,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.116Z",
+        "updated_at": "2023-05-20T18:04:16.116Z",
+        "name": "Tigrinya"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 131,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.117Z",
+        "updated_at": "2023-05-20T18:04:16.117Z",
+        "name": "Turkmen"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 132,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.119Z",
+        "updated_at": "2023-05-20T18:04:16.119Z",
+        "name": "Tagalog"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 133,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.120Z",
+        "updated_at": "2023-05-20T18:04:16.120Z",
+        "name": "Tswana"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 134,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.121Z",
+        "updated_at": "2023-05-20T18:04:16.121Z",
+        "name": "Turkish"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 135,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.123Z",
+        "updated_at": "2023-05-20T18:04:16.123Z",
+        "name": "Tsonga"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 136,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.124Z",
+        "updated_at": "2023-05-20T18:04:16.124Z",
+        "name": "Tatar"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 137,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.125Z",
+        "updated_at": "2023-05-20T18:04:16.125Z",
+        "name": "Twi"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 138,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.126Z",
+        "updated_at": "2023-05-20T18:04:16.126Z",
+        "name": "Tahitian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 139,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.127Z",
+        "updated_at": "2023-05-20T18:04:16.127Z",
+        "name": "Ukrainian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 140,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.129Z",
+        "updated_at": "2023-05-20T18:04:16.129Z",
+        "name": "Urdu"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 141,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.130Z",
+        "updated_at": "2023-05-20T18:04:16.130Z",
+        "name": "Uzbek"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 142,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.132Z",
+        "updated_at": "2023-05-20T18:04:16.132Z",
+        "name": "Venda"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 143,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.133Z",
+        "updated_at": "2023-05-20T18:04:16.133Z",
+        "name": "Vietnamese"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 144,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.134Z",
+        "updated_at": "2023-05-20T18:04:16.134Z",
+        "name": "Walloon"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 145,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.136Z",
+        "updated_at": "2023-05-20T18:04:16.136Z",
+        "name": "Welsh"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 146,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.137Z",
+        "updated_at": "2023-05-20T18:04:16.137Z",
+        "name": "Wolof"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 147,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.138Z",
+        "updated_at": "2023-05-20T18:04:16.138Z",
+        "name": "Western Frisian"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 148,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.140Z",
+        "updated_at": "2023-05-20T18:04:16.140Z",
+        "name": "Xhosa"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 149,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.141Z",
+        "updated_at": "2023-05-20T18:04:16.141Z",
+        "name": "Yiddish"
+    }
+},
+{
+    "model": "inventory.inventorylanguage",
+    "pk": 150,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.142Z",
+        "updated_at": "2023-05-20T18:04:16.142Z",
+        "name": "Yoruba"
+    }
+},
+{
+    "model": "inventory.inventorytype",
+    "pk": 1,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.154Z",
+        "updated_at": "2023-05-20T18:04:16.154Z",
+        "name": "Movie"
+    }
+},
+{
+    "model": "inventory.inventorytype",
+    "pk": 2,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.155Z",
+        "updated_at": "2023-05-20T18:04:16.155Z",
+        "name": "Episode"
+    }
+},
+{
+    "model": "inventory.inventorytype",
+    "pk": 3,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.156Z",
+        "updated_at": "2023-05-20T18:04:16.156Z",
+        "name": "Version"
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 1,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.158Z",
+        "updated_at": "2023-05-20T18:04:16.158Z",
+        "name": "The Matrix",
+        "type": 3,
+        "language": 1,
+        "metadata": {
+            "year": 1999,
+            "actors": [
+                "Keanu Reeves",
+                "Laurence Fishburne",
+                "Carrie-Anne Moss"
+            ],
+            "imdb_rating": 8.7,
+            "rotten_tomatoes_rating": 87
+        },
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 2,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.164Z",
+        "updated_at": "2023-05-20T18:04:16.164Z",
+        "name": "The Matrix Reloaded",
+        "type": 3,
+        "language": 10,
+        "metadata": {
+            "year": 2003,
+            "actors": [
+                "Keanu Reeves",
+                "Laurence Fishburne",
+                "Carrie-Anne Moss"
+            ],
+            "imdb_rating": 7.2,
+            "rotten_tomatoes_rating": 73
+        },
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 3,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.168Z",
+        "updated_at": "2023-05-20T18:04:16.168Z",
+        "name": "The Matrix Revolutions",
+        "type": 3,
+        "language": 10,
+        "metadata": {
+            "year": 2003,
+            "actors": [
+                "Keanu Reeves",
+                "Laurence Fishburne",
+                "Carrie-Anne Moss"
+            ],
+            "imdb_rating": 6.7,
+            "rotten_tomatoes_rating": 59
+        },
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 4,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.172Z",
+        "updated_at": "2023-05-20T18:04:16.172Z",
+        "name": "Reqiuem for a Dream",
+        "type": 3,
+        "language": 12,
+        "metadata": {
+            "year": 2000,
+            "actors": [
+                "Ellen Burstyn",
+                "Jared Leto",
+                "Jennifer Connelly"
+            ],
+            "imdb_rating": 8.3,
+            "rotten_tomatoes_rating": 89
+        },
+        "tags": [
+            4
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 5,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.176Z",
+        "updated_at": "2023-05-20T18:04:16.176Z",
+        "name": "The Lord of the Rings: The Fellowship of the Ring",
+        "type": 1,
+        "language": 37,
+        "metadata": {
+            "year": 2001,
+            "actors": [
+                "Elijah Wood",
+                "Ian McKellen",
+                "Viggo Mortensen"
+            ],
+            "imdb_rating": 8.8,
+            "rotten_toamtoes_rating": 91
+        },
+        "tags": [
+            2
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 6,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.180Z",
+        "updated_at": "2023-05-20T18:04:16.180Z",
+        "name": "The Lord of the Rings: The Two Towers",
+        "type": 1,
+        "language": 37,
+        "metadata": {
+            "year": 2002,
+            "actors": [
+                "Elijah Wood",
+                "Ian McKellen",
+                "Viggo Mortensen"
+            ],
+            "imdb_rating": 8.7,
+            "rotten_tomatoes_rating": 87
+        },
+        "tags": [
+            2
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 7,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.185Z",
+        "updated_at": "2023-05-20T18:04:16.185Z",
+        "name": "The Lord of the Rings: The Return of the King",
+        "type": 1,
+        "language": 37,
+        "metadata": {
+            "year": 2003,
+            "actors": [
+                "Elijah Wood",
+                "Ian McKellen",
+                "Viggo Mortensen"
+            ],
+            "imdb_rating": 8.9,
+            "rotten_tomatoes_rating": 95
+        },
+        "tags": [
+            2
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 8,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.189Z",
+        "updated_at": "2023-05-20T18:04:16.189Z",
+        "name": "Titanic",
+        "type": 1,
+        "language": 37,
+        "metadata": {
+            "year": 1997,
+            "actors": [
+                "Leonardo DiCaprio",
+                "Kate Winslet",
+                "Billy Zane"
+            ],
+            "imdb_rating": 7.8,
+            "rotten_tomatoes_rating": 89
+        },
+        "tags": [
+            5
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 9,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.194Z",
+        "updated_at": "2023-05-20T18:04:16.194Z",
+        "name": "Crash",
+        "type": 3,
+        "language": 48,
+        "metadata": {
+            "year": 2004,
+            "actors": [
+                "Don Cheadle",
+                "Sandra Bullock",
+                "Matt Dillon"
+            ],
+            "imdb_rating": 7.8,
+            "rotten_tomatoes_rating": 89
+        },
+        "tags": [
+            4
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 10,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.198Z",
+        "updated_at": "2023-05-20T18:04:16.198Z",
+        "name": "Seinfeld Season 1 Episode 1",
+        "type": 2,
+        "language": 37,
+        "metadata": {
+            "year": 1990,
+            "actors": [
+                "Jerry Seinfeld",
+                "Julia Louis-Dreyfus",
+                "Michael Richards"
+            ],
+            "imdb_rating": 8.8,
+            "rotten_tomatoes_rating": 91
+        },
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 11,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.202Z",
+        "updated_at": "2023-05-20T18:04:16.202Z",
+        "name": "Seinfeld Season 1 Episode 2",
+        "type": 2,
+        "language": 37,
+        "metadata": {
+            "year": 1990,
+            "actors": [
+                "Jerry Seinfeld",
+                "Julia Louis-Dreyfus",
+                "Michael Richards"
+            ],
+            "imdb_rating": 8.8,
+            "rotten_tomatoes_rating": 91
+        },
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 12,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.206Z",
+        "updated_at": "2023-05-20T18:04:16.206Z",
+        "name": "Seinfeld Season 1 Episode 3",
+        "type": 2,
+        "language": 37,
+        "metadata": {
+            "year": 1990,
+            "actors": [
+                "Jerry Seinfeld",
+                "Julia Louis-Dreyfus",
+                "Michael Richards"
+            ],
+            "imdb_rating": 8.8,
+            "rotten_tomatoes_rating": 91
+        },
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 13,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.210Z",
+        "updated_at": "2023-05-20T18:04:16.210Z",
+        "name": "Seinfeld Season 1 Episode 4",
+        "type": 2,
+        "language": 37,
+        "metadata": {
+            "year": 1990,
+            "actors": [
+                "Jerry Seinfeld",
+                "Julia Louis-Dreyfus",
+                "Michael Richards"
+            ],
+            "imdb_rating": 8.8,
+            "rotten_tomatoes_rating": 91
+        },
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 14,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.214Z",
+        "updated_at": "2023-05-20T18:04:16.214Z",
+        "name": "Seinfeld Season 1 Episode 5",
+        "type": 2,
+        "language": 37,
+        "metadata": {
+            "year": 1990,
+            "actors": [
+                "Jerry Seinfeld",
+                "Julia Louis-Dreyfus",
+                "Michael Richards"
+            ],
+            "imdb_rating": 8.8,
+            "rotten_tomatoes_rating": 91
+        },
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 15,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.219Z",
+        "updated_at": "2023-05-20T18:04:16.219Z",
+        "name": "Seinfeld Season 1 Episode 6",
+        "type": 2,
+        "language": 37,
+        "metadata": {
+            "year": 1990,
+            "actors": [
+                "Jerry Seinfeld",
+                "Julia Louis-Dreyfus",
+                "Michael Richards"
+            ],
+            "imdb_rating": 8.8,
+            "rotten_tomatoes_rating": 91
+        },
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 16,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.223Z",
+        "updated_at": "2023-05-20T18:04:16.223Z",
+        "name": "Seinfeld Season 1 Episode 7",
+        "type": 2,
+        "language": 37,
+        "metadata": {
+            "year": 1990,
+            "actors": [
+                "Jerry Seinfeld",
+                "Julia Louis-Dreyfus",
+                "Michael Richards"
+            ],
+            "imdb_rating": 8.8,
+            "rotten_tomatoes_rating": 91
+        },
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "inventory.inventory",
+    "pk": 17,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.227Z",
+        "updated_at": "2023-05-20T18:04:16.227Z",
+        "name": "Seinfeld Season 1 Episode 8",
+        "type": 2,
+        "language": 37,
+        "metadata": {
+            "year": 1990,
+            "actors": [
+                "Jerry Seinfeld",
+                "Julia Louis-Dreyfus",
+                "Michael Richards"
+            ],
+            "imdb_rating": 8.8,
+            "rotten_tomatoes_rating": 91
+        },
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 1,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.232Z",
+        "updated_at": "2023-05-20T18:04:16.232Z",
+        "is_active": true,
+        "name": "San Antonio"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 2,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.234Z",
+        "updated_at": "2023-05-20T18:04:16.234Z",
+        "is_active": true,
+        "name": "Austin"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 3,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.235Z",
+        "updated_at": "2023-05-20T18:04:16.235Z",
+        "is_active": true,
+        "name": "Dallas"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 4,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.236Z",
+        "updated_at": "2023-05-20T18:04:16.236Z",
+        "is_active": true,
+        "name": "Houston"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 5,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.237Z",
+        "updated_at": "2023-05-20T18:04:16.237Z",
+        "is_active": true,
+        "name": "El Paso"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 6,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.239Z",
+        "updated_at": "2023-05-20T18:04:16.239Z",
+        "is_active": true,
+        "name": "Boston"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 7,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.240Z",
+        "updated_at": "2023-05-20T18:04:16.240Z",
+        "is_active": true,
+        "name": "New York"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 8,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.241Z",
+        "updated_at": "2023-05-20T18:04:16.241Z",
+        "is_active": true,
+        "name": "Chicago"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 9,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.243Z",
+        "updated_at": "2023-05-20T18:04:16.243Z",
+        "is_active": true,
+        "name": "Los Angeles"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 10,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.244Z",
+        "updated_at": "2023-05-20T18:04:16.244Z",
+        "is_active": true,
+        "name": "San Francisco"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 11,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.245Z",
+        "updated_at": "2023-05-20T18:04:16.245Z",
+        "is_active": true,
+        "name": "Pending"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 12,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.246Z",
+        "updated_at": "2023-05-20T18:04:16.246Z",
+        "is_active": true,
+        "name": "Delivered"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 13,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.248Z",
+        "updated_at": "2023-05-20T18:04:16.248Z",
+        "is_active": true,
+        "name": "Cancelled"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 14,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.249Z",
+        "updated_at": "2023-05-20T18:04:16.249Z",
+        "is_active": true,
+        "name": "On-hold"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 15,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.250Z",
+        "updated_at": "2023-05-20T18:04:16.250Z",
+        "is_active": true,
+        "name": "Processing"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 16,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.252Z",
+        "updated_at": "2023-05-20T18:04:16.252Z",
+        "is_active": true,
+        "name": "QC"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 17,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.253Z",
+        "updated_at": "2023-05-20T18:04:16.253Z",
+        "is_active": true,
+        "name": "Dubbing"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 18,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.254Z",
+        "updated_at": "2023-05-20T18:04:16.254Z",
+        "is_active": true,
+        "name": "Subbing"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 19,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.256Z",
+        "updated_at": "2023-05-20T18:04:16.256Z",
+        "is_active": true,
+        "name": "Closed Captioning"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 20,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.257Z",
+        "updated_at": "2023-05-20T18:04:16.257Z",
+        "is_active": true,
+        "name": "Transcription"
+    }
+},
+{
+    "model": "order.ordertag",
+    "pk": 21,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.258Z",
+        "updated_at": "2023-05-20T18:04:16.258Z",
+        "is_active": true,
+        "name": "Transcoding"
+    }
+},
+{
+    "model": "order.order",
+    "pk": 1,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.266Z",
+        "updated_at": "2023-05-20T18:04:16.266Z",
+        "is_active": true,
+        "inventory": 5,
+        "start_date": "2023-05-20",
+        "embargo_date": "2023-06-19",
+        "tags": [
+            1,
+            11,
+            17
+        ]
+    }
+},
+{
+    "model": "order.order",
+    "pk": 2,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.272Z",
+        "updated_at": "2023-05-20T18:04:16.272Z",
+        "is_active": true,
+        "inventory": 6,
+        "start_date": "2023-05-20",
+        "embargo_date": "2023-04-20",
+        "tags": [
+            8,
+            17,
+            12
+        ]
+    }
+},
+{
+    "model": "order.order",
+    "pk": 3,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.277Z",
+        "updated_at": "2023-05-20T18:04:16.277Z",
+        "is_active": true,
+        "inventory": 7,
+        "start_date": "2023-05-25",
+        "embargo_date": "2023-06-19",
+        "tags": [
+            16,
+            18,
+            20,
+            6
+        ]
+    }
+},
+{
+    "model": "order.order",
+    "pk": 4,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.282Z",
+        "updated_at": "2023-05-20T18:04:16.282Z",
+        "is_active": true,
+        "inventory": 9,
+        "start_date": "2023-06-04",
+        "embargo_date": "2023-06-19",
+        "tags": [
+            17,
+            15,
+            21,
+            7
+        ]
+    }
+},
+{
+    "model": "order.order",
+    "pk": 5,
+    "fields": {
+        "created_at": "2023-05-20T18:04:16.286Z",
+        "updated_at": "2023-05-20T18:04:16.286Z",
+        "is_active": false,
+        "inventory": 1,
+        "start_date": "2023-06-04",
+        "embargo_date": "2023-06-19",
+        "tags": [
+            9,
+            21,
+            13,
+            17
+        ]
+    }
+}
+]
