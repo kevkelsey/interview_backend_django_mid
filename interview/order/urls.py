@@ -15,5 +15,6 @@ urlpatterns = [
     ),
     path("deactivate/<int:id>/", DeactivateOrder.as_view(), name="deactivate-order"),
     path("tags/", OrderTagListCreateView.as_view(), name="order-detail"),
+    path("tags/<int:id>", ListOrdersByTag.as_view(), name="list-orders-by-tag"),
     path("", OrderListCreateView.as_view(), name="order-list"),
 ]

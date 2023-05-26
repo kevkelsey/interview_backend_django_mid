@@ -62,3 +62,10 @@ class ListOrderTagsByOrder(generics.ListAPIView):
 
     def get_queryset(self):
         return Order.objects.get(id=self.kwargs.get("id")).tags.all()
+
+
+class ListOrdersByTag(generics.ListAPIView):
+    serializer_class = OrderSerializer
+
+    def get_queryset(self):
+        return OrderTag.objects.get(id=self.kwargs.get("id")).orders.all()
