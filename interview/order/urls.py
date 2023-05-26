@@ -1,13 +1,13 @@
 from django.urls import path
 
-from .views import (
-    DeactivateOrder,
-    ListBetweenStartEmbargoDates,
-    OrderListCreateView,
-    OrderTagListCreateView,
-)
+from .views import *
 
 urlpatterns = [
+    path(
+        "<int:id>/tags/",
+        ListOrderTagsByOrder.as_view(),
+        name="list-order-tags-by-order",
+    ),
     path(
         "list/start/<int:s_year>/<int:s_month>/<int:s_day>/embargo/<int:e_year>/<int:e_month>/<int:e_day>/",
         ListBetweenStartEmbargoDates.as_view(),

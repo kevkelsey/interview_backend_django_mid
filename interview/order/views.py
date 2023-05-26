@@ -55,3 +55,10 @@ class ListBetweenStartEmbargoDates(generics.ListAPIView):
         return self.queryset.filter(start_date__gte=start_date).filter(
             embargo_date__lte=embargo_date
         )
+
+
+class ListOrderTagsByOrder(generics.ListAPIView):
+    serializer_class = OrderTagSerializer
+
+    def get_queryset(self):
+        return Order.objects.get(id=self.kwargs.get("id")).tags.all()

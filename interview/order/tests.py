@@ -5,7 +5,7 @@ from interview.inventory.models import Inventory
 from rest_framework.test import APIRequestFactory, APITestCase
 
 from .models import Order
-from .views import DeactivateOrder, ListBetweenStartEmbargoDates
+from .views import DeactivateOrder, ListBetweenStartEmbargoDates, ListOrderTagsByOrder
 
 
 class TestDeactivateOrder(APITestCase):
@@ -70,3 +70,18 @@ class TestListBetweenStartEmbargoDates(APITestCase):
         )
         self.assertEqual(len(response.data), 2)
         self.assertEqual(response.status_code, 200)
+
+
+class TestListOrderTagsByOrder(APITestCase):
+    fixtures = ["fixtures/test_data.json"]
+
+    def setUp(self):
+        self.factory = APIRequestFactory()
+        self.view = ListOrderTagsByOrder.as_view()
+
+    def test_order_tags_view(self):
+        request = self.factory.get(
+            reverse("list-order-tags-by-order", kwargs={"id": 1})
+        )
+        response = self.view(request, id=1)
+        self.assertEqual(len(response.data), 3)
